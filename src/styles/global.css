@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+  color: #000;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  padding: 30px 0;
+  margin-bottom: 0;
+  background: white;
+}
+
+legend {
+  padding: 0;
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+.label-inline {
+  display: inline;
+  margin-right: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s;
+  background: transparent;
+}
+
+.form-input:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
+  box-shadow: none;
+}
+
+.form-input.error {
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+}
+
+.form-select-multiple {
+  height: 120px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  padding: 12px 0 !important;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.radio-option,
+.checkbox-option {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 12px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #000;
+}
+
+small {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.error-msg {
+  display: block;
+  color: #000;
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 14px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #333;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
